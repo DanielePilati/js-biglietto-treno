@@ -9,7 +9,7 @@ console.log(age);
 
 if (!isNaN(age) && !isNaN(distance)) {
     let price = distance * rate; 
-    console.log(`per ${distance} km il costo base del biglietto è di ${price} Euro`);
+    console.log(`per ${distance} km il costo base del biglietto è di ${price.toFixed(2)} Euro`);
 
     if (age < 18) {
         price = price / 1.20;
