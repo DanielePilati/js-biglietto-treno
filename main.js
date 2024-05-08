@@ -26,6 +26,7 @@ if (!isNaN(age) && !isNaN(distance)) {
     
 } else {
     console.log('inserisci numeri');
+    document.getElementById('final-price').innerHTML = `Non hai inserito i dati correttamente, riprova.`;
 }
 
 
