@@ -22,10 +22,13 @@ if (!isNaN(age) && !isNaN(distance)) {
         console.log('non hai diritto a nessun tipo di sconto');
     }
     console.log(`l'importo finale del biglietto è di ${price.toFixed(2)} Euro`); 
+    document.getElementById('final-price').innerHTML = `il prezzo del tuo biglietto è di ${price.toFixed(2)} Euro`;
     
 } else {
     console.log('inserisci numeri');
 }
+
+
 
 
 
